@@ -12,7 +12,7 @@ const CountdownSection = () => {
   const { animationsEnabled } = useAnimationContext();
 
   useEffect(() => {
-    const targetDate = new Date('2026-01-31T14:00:00').getTime();
+    const targetDate = new Date('2025-12-09T14:00:00').getTime();
 
     const updateTimer = () => {
       const now = new Date().getTime();
