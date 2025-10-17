@@ -12,7 +12,7 @@ const CountdownSection = () => {
   const { animationsEnabled } = useAnimationContext();
 
   useEffect(() => {
-    const targetDate = new Date('January 31, 2026 14:00:00').getTime();
+    const targetDate = new Date('2026-01-31T14:00:00').getTime();
 
     const updateTimer = () => {
       const now = new Date().getTime();
@@ -24,6 +24,13 @@ const CountdownSection = () => {
           hours: Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
           minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)),
           seconds: Math.floor((difference % (1000 * 60)) / 1000)
+        });
+      } else {
+        setTimeLeft({
+          days: 0,
+          hours: 0,
+          minutes: 0,
+          seconds: 0
         });
       }
     };
