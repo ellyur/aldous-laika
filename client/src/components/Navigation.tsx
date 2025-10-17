@@ -5,6 +5,8 @@ import monogram from '@assets/Gemini_Generated_Image_in9gyyin9gyyin9g-removebg-p
 
 import image_removebg_preview__5_ from "@assets/image-removebg-preview (5).png";
 
+import image_removebg_preview__7_ from "@assets/image-removebg-preview (7).png";
+
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('');
@@ -108,7 +110,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img src={image_removebg_preview__5_} alt="I&R" className="h-12 w-12 object-contain" />
+            <img src={image_removebg_preview__7_} alt="I&R" className="h-12 w-12 object-contain" />
           </div>
 
           {/* Desktop Navigation */}
