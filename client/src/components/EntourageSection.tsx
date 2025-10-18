@@ -33,44 +33,44 @@ const EntourageSection = () => {
             <p className="text-primary/80 font-normal italic text-xs">Father Mhar Balili</p>
           </div>
 
-          {/* Bride & Groom */}
+          {/* Groom & Bride - MEN LEFT, WOMEN RIGHT */}
           <div className="grid grid-cols-2 gap-8">
-            <div data-testid="section-bride">
-              <h3 className="font-display italic text-sm text-primary mb-2">Bride</h3>
-              <p className="text-primary/80 font-normal italic text-xs">Laika Mae Cansancio</p>
-            </div>
             <div data-testid="section-groom">
               <h3 className="font-display italic text-sm text-primary mb-2">Groom</h3>
               <p className="text-primary/80 font-normal italic text-xs">Aldous Jerome Nacua</p>
             </div>
+            <div data-testid="section-bride">
+              <h3 className="font-display italic text-sm text-primary mb-2">Bride</h3>
+              <p className="text-primary/80 font-normal italic text-xs">Laika Mae Cansancio</p>
+            </div>
           </div>
 
-          {/* Principal Sponsors - 2 COLUMNS */}
+          {/* Principal Sponsors - MEN LEFT, WOMEN RIGHT */}
           <div>
             <h3 className="font-display italic text-lg text-primary mb-4" data-testid="heading-principal-sponsors">Principal Sponsors</h3>
             <div className="grid grid-cols-2 gap-x-8 gap-y-0.5">
-              <p className="text-primary/80 font-normal italic text-xs">Rachel Abuton</p>
               <p className="text-primary/80 font-normal italic text-xs">Alan Abuton</p>
-              <p className="text-primary/80 font-normal italic text-xs">Brenda Barete</p>
+              <p className="text-primary/80 font-normal italic text-xs">Rachel Abuton</p>
               <p className="text-primary/80 font-normal italic text-xs">Arnel Barete</p>
-              <p className="text-primary/80 font-normal italic text-xs">Juvy Pardillada</p>
+              <p className="text-primary/80 font-normal italic text-xs">Brenda Barete</p>
               <p className="text-primary/80 font-normal italic text-xs">Eden Ike Pardillada</p>
-              <p className="text-primary/80 font-normal italic text-xs">Kareen Batiquin</p>
+              <p className="text-primary/80 font-normal italic text-xs">Juvy Pardillada</p>
               <p className="text-primary/80 font-normal italic text-xs">Anthony Batiquin</p>
+              <p className="text-primary/80 font-normal italic text-xs">Kareen Batiquin</p>
               <p className="text-primary/80 font-normal italic text-xs">Anecito Akuino</p>
               <p className="text-primary/80 font-normal italic text-xs">Lebie Jade Alkuino</p>
               <p className="text-primary/80 font-normal italic text-xs">Salvador Niño Codoy</p>
               <p className="text-primary/80 font-normal italic text-xs">Julieta Codoy</p>
-              <p className="text-primary/80 font-normal italic text-xs">Richel Turno</p>
               <p className="text-primary/80 font-normal italic text-xs">Welber Turno</p>
+              <p className="text-primary/80 font-normal italic text-xs">Richel Turno</p>
               <p className="text-primary/80 font-normal italic text-xs">Tiborcio Borja</p>
               <p className="text-primary/80 font-normal italic text-xs">Susan Borja</p>
-              <p className="text-primary/80 font-normal italic text-xs">Maria Gina Rallos</p>
               <p className="text-primary/80 font-normal italic text-xs">Bernie Rallos</p>
-              <p className="text-primary/80 font-normal italic text-xs">Leoncia Pelayo</p>
+              <p className="text-primary/80 font-normal italic text-xs">Maria Gina Rallos</p>
               <p className="text-primary/80 font-normal italic text-xs">Rey Pelayo</p>
-              <p className="text-primary/80 font-normal italic text-xs">Ma. Teresa Martin</p>
+              <p className="text-primary/80 font-normal italic text-xs">Leoncia Pelayo</p>
               <p className="text-primary/80 font-normal italic text-xs">Edward Martin</p>
+              <p className="text-primary/80 font-normal italic text-xs">Ma. Teresa Martin</p>
               <p className="text-primary/80 font-normal italic text-xs">Captain Gremar Barete</p>
               <p className="text-primary/80 font-normal italic text-xs">Jean Barete</p>
               <p className="text-primary/80 font-normal italic text-xs">Dr. Cristopher Codoy</p>
@@ -80,27 +80,20 @@ const EntourageSection = () => {
             </div>
           </div>
 
-          {/* Maid of Honor & Best Man */}
+          {/* Best Man & Maid of Honor - MEN LEFT, WOMEN RIGHT */}
           <div className="grid grid-cols-2 gap-8">
-            <div data-testid="section-maid-honor">
-              <h4 className="font-display italic text-sm text-primary mb-2">Maid of Honor</h4>
-              <p className="text-primary/80 font-normal italic text-xs">Lelac Lamonte</p>
-            </div>
             <div data-testid="section-best-man">
               <h4 className="font-display italic text-sm text-primary mb-2">Best Man</h4>
               <p className="text-primary/80 font-normal italic text-xs">Albert Lamonte</p>
             </div>
+            <div data-testid="section-maid-honor">
+              <h4 className="font-display italic text-sm text-primary mb-2">Maid of Honor</h4>
+              <p className="text-primary/80 font-normal italic text-xs">Lelac Lamonte</p>
+            </div>
           </div>
 
-          {/* Bridesmaids & Groomsmen */}
+          {/* Groomsmen & Bridesmaids - MEN LEFT, WOMEN RIGHT */}
           <div className="grid grid-cols-2 gap-8">
-            <div data-testid="section-bridesmaids">
-              <h4 className="font-display italic text-sm text-primary mb-2">Bridesmaids</h4>
-              <p className="text-primary/80 font-normal italic text-xs">Lora Mae Dictado</p>
-              <p className="text-primary/80 font-normal italic text-xs">Stella Mae Jotojot</p>
-              <p className="text-primary/80 font-normal italic text-xs">Katrina Mirambel</p>
-              <p className="text-primary/80 font-normal italic text-xs">Catherine Cabonita</p>
-            </div>
             <div data-testid="section-groomsmen">
               <h4 className="font-display italic text-sm text-primary mb-2">Groomsmen</h4>
               <p className="text-primary/80 font-normal italic text-xs">Kinth Dictado</p>
@@ -108,22 +101,29 @@ const EntourageSection = () => {
               <p className="text-primary/80 font-normal italic text-xs">Glenn Ford Pacaldo</p>
               <p className="text-primary/80 font-normal italic text-xs">Patrick Anthony Pañares</p>
             </div>
+            <div data-testid="section-bridesmaids">
+              <h4 className="font-display italic text-sm text-primary mb-2">Bridesmaids</h4>
+              <p className="text-primary/80 font-normal italic text-xs">Lora Mae Dictado</p>
+              <p className="text-primary/80 font-normal italic text-xs">Stella Mae Jotojot</p>
+              <p className="text-primary/80 font-normal italic text-xs">Katrina Mirambel</p>
+              <p className="text-primary/80 font-normal italic text-xs">Catherine Cabonita</p>
+            </div>
           </div>
 
-          {/* Junior Bridesmaids & Groomsmen */}
+          {/* Junior Groomsmen & Bridesmaids - MEN LEFT, WOMEN RIGHT */}
           <div className="grid grid-cols-2 gap-8">
+            <div data-testid="section-junior-groomsmen">
+              <h4 className="font-display italic text-sm text-primary mb-2">Junior Groomsmen</h4>
+              <p className="text-primary/80 font-normal italic text-xs">Aiziah Zach Nacua</p>
+              <p className="text-primary/80 font-normal italic text-xs">Albert Gabrielle Lamonte</p>
+              <p className="text-primary/80 font-normal italic text-xs">Aloheim Niño Gabriel Lamonte</p>
+            </div>
             <div data-testid="section-junior-bridesmaids">
               <h4 className="font-display italic text-sm text-primary mb-2">Junior Bridesmaids</h4>
               <p className="text-primary/80 font-normal italic text-xs">Aizen Skylar Nacua</p>
               <p className="text-primary/80 font-normal italic text-xs">Jemimah Nacua</p>
               <p className="text-primary/80 font-normal italic text-xs">Ashley Gail Divine Borja</p>
               <p className="text-primary/80 font-normal italic text-xs">Trisha Driane Cansancio</p>
-            </div>
-            <div data-testid="section-junior-groomsmen">
-              <h4 className="font-display italic text-sm text-primary mb-2">Junior Groomsmen</h4>
-              <p className="text-primary/80 font-normal italic text-xs">Aiziah Zach Nacua</p>
-              <p className="text-primary/80 font-normal italic text-xs">Albert Gabrielle Lamonte</p>
-              <p className="text-primary/80 font-normal italic text-xs">Aloheim Niño Gabriel Lamonte</p>
             </div>
           </div>
 
